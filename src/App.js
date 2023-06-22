@@ -1,4 +1,5 @@
 import Button from "./components/Button/Button";
+import Form from "./components/Form/Form";
 
 function App() {
   return (
@@ -24,6 +25,11 @@ function App() {
       <Button color="red" size="small">
         Small
       </Button>
+
+      <br />
+      <br />
+      <h2>Input</h2>
+      <Form />
     </>
   );
 }
