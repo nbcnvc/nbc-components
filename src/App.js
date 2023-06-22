@@ -1,5 +1,6 @@
 import Button from "./components/Button/Button";
 import Form from "./components/Form/Form";
+import Select from "./components/Select/Select";
 
 function App() {
   return (
@@ -30,6 +31,16 @@ function App() {
       <br />
       <h2>Input</h2>
       <Form />
+
+      <br />
+      <br />
+      <h2>Select</h2>
+      <div style={{ overflow: 'hidden', height: "150px", border: "2px solid lightgray" }}>
+        <Select />
+      </div>
+      <div style={{ height: "150px", border: "2px solid lightgray" }}>
+        <Select />
+      </div>
     </>
   );
 }
