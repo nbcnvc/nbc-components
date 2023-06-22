@@ -22,10 +22,10 @@ const btnSizes = {
 };
 
 const Button = (props) => {
-  const { size, color, children, primary } = props;
+  const { size, color, children, primary, onClick } = props;
   return (
     <>
-      <NbcButton color={color} size={size} primary={primary}>
+      <NbcButton color={color} size={size} primary={primary} onClick={onClick}>
         {children}
       </NbcButton>
     </>
